@@ -29,4 +29,6 @@ Verilog-Based Implementation Approach: The filter is designed using register-bas
 The simulation validates the functionality of the FIR filter through key observations:
 
 Reset Behavior: When reset is triggered, the system initializes all internal registers and sets the output to zero, ensuring predictable startup conditions. Filtering Response: Upon receiving an input sequence, the filter applies its predefined impulse response, producing an output that closely follows the expected theoretical results. Time-Domain Verification: The simulation results confirm the correctness of the filtering operation, demonstrating that the output represents a weighted sum of recent inputs as dictated by the FIR coefficients.
+
+# OUTPUT
 ![image](https://github.com/user-attachments/assets/22edc334-ebc0-4f68-8677-7d48234df52a)
